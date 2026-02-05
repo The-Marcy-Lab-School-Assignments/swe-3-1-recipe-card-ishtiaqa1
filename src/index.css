@@ -27,6 +27,14 @@ body {
   margin-bottom: 40px;
 }
 
+header {
+  max-height: 10rem;
+}
+
+main {
+  margin-top: 10rem;
+}
+
 h1 {
   font-size: 2.5em;
   color: #7B2D26;
@@ -66,14 +74,13 @@ header {
   margin-bottom: 30px;
 }
 
-main {
-  margin-top: 10rem;
-}
 
 a:hover {
   text-decoration: underline;
-  color: #7B2D26;
-  cursor: grab;
+  color: #dd8e87;
+  cursor: pointer;
+  background-color: #E6DED3;
+  border-radius: 8px;
 }
 
 section {
@@ -129,4 +136,12 @@ footer a {
   background-color: #E6DED3;
   padding: 15px 20px;
   border-radius: 10px;
+}
+
+.instructions:hover,
+.ingredients:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  color: #C56E33;
+  cursor: pointer;
 }

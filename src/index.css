@@ -14,3 +14,134 @@ img {
 }
 
 /* Add your CSS below */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F7F3E9;
+  color: #2E2E2E;
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+header {
+  max-height: 10rem;
+}
+
+main {
+  margin-top: 10rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #7B2D26;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #3A5A40;
+  border-bottom: #C56E33 2px solid;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #344E41;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #C56E33;
+  margin-inline: 10px;
+  padding: 10px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fffaeb;
+  margin-bottom: 30px;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: #dd8e87;
+  cursor: pointer;
+  background-color: #E6DED3;
+  border-radius: 8px;
+}
+
+section {
+  background-color: #E6DED3;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+ul {
+  padding: 25px 25px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+figure {
+  margin-bottom: 20px;
+  margin-inline: auto;
+  max-width: 450px;
+}
+
+img {
+  border-radius: 10px;
+  border: #2E2E2E 2px solid;
+}
+
+#caption {
+  font-style: italic;
+  color: #555;
+  margin-top: 8px;
+}
+
+footer {
+  font-size: 0.9em;
+  border-top: #C56E33 2px solid;
+  padding: 25px;
+}
+
+footer a {
+  padding: 0;
+  margin: 0;
+}
+
+#description {
+  margin-bottom: 15px;
+  border-left: #C56E33 2px solid;
+  background-color: #E6DED3;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.instructions:hover,
+.ingredients:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  color: #C56E33;
+  cursor: pointer;
+}
